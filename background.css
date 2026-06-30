@@ -1,0 +1,38 @@
+.box{
+background-color: rgb(213, 193, 232);
+height: 40vh;
+width: 50vw;
+justify-content: center;
+text-align: center;
+position: relative;
+padding-top: 5vh;
+margin-top: 25vh;
+border-radius: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    padding: 10vh;
+
+}
+.but > button{
+    height: 5vh;
+    width: 7vw;
+    border-radius: 10px;
+    border-color: goldenrod;
+    box-shadow: goldenrod;
+}
